@@ -50,23 +50,24 @@
 
 			<div class="sidebar">
 
-				<section class="search">
-					<form action="<?php echo home_url( '/' ); ?>" method="get">
-					    <fieldset>
-					        <input type="search" placeholder="search" name="s" id="search" value="<?php the_search_query(); ?>" />
-					    </fieldset>
-					</form>
+				<section class="about">
+					<h3>about me</h3>
+					<p>A web developer, living in Chiang Mai, Thailand. Love taking phoros, crafting web, cats, and stars. I blog about things I am interested in.</p>
+					<ul class="social-medias">
+						<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook"></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="twitter"></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/flickr.png" alt="flickr"></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/rss.png" alt="rss"></a></li>
+					</ul>
 				</section>
 
-				<section class="about">
-					<h3>About me</h3>
-					<p>
-						Hi, this is ArmNo. This is too much information here. You should better <a href="#">read more about me</a>.
-					</p>
-					<ul>
-						<li><a href="http://twitter.com/armno">Follow me on Twitter</a></li>
-						<li><a href="http://facebook.com/armnoblog">Like this blog on Facebook</a></li>
-					</ul>
+				<section class="search">
+					<h3>search</h3>
+					<form action="<?php echo home_url( '/' ); ?>" method="get">
+					    <fieldset>
+					        <input type="search" placeholder="type and hit enter" name="s" id="search" size="30" value="<?php the_search_query(); ?>" />
+					    </fieldset>
+					</form>
 				</section>
 
 				<ul class="widgets">
@@ -77,7 +78,8 @@
 			</div>
 		</div>
 		<footer>
-			&copy; <?php echo date('Y'); ?> &mdash; <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+			<p>&copy; <?php echo date('Y'); ?> &mdash; <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+			icons by <a href="http://www.iconfinder.com/search/1/?q=iconset%3Asocial">Picons Social</a></p>
 		</footer>
 
 	</body>
