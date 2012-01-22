@@ -570,7 +570,8 @@ select {
     background-color: #fafafa;
     color: #333;
 
-    box-shadow: inset 0 0 3px #ccc;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 2px;
 }
 
 form div {
@@ -593,12 +594,25 @@ body > header {
 
 .main-navigation {
     float: left;
-    margin-top: 48px;
+    margin-top: 56px;
 }
 
 .main-navigation li {
     display: inline;
     margin: 0 10px;
+    padding-left: 24px;
+}
+
+.main-navigation li:nth-child(1) {
+	background: url('img/my-account.png') left center no-repeat;
+}
+
+.main-navigation li:nth-child(2) {
+	background: url('img/photography.png') left center no-repeat;
+}
+
+.main-navigation li:nth-child(3) {
+	background: url('img/email.png') left center no-repeat;
 }
 
 .content {
@@ -609,11 +623,28 @@ body > header {
     margin-right: 10px;
 }
 
+
+.content .post {
+	margin-bottom: 24px;
+}
+
+.content .post-title {
+	font-size: 24px;
+	margin: 6px 0;
+	font-weight: normal;
+	line-height: 36px;
+}
+
+.content .post span {
+	text-transform: uppercase;
+	color: #acacac;
+}
+
 .sidebar {
     float: left;
     width: 310px;
     margin-left: 10px;
-    margin-top: 48px;
+    margin-top: 24px;
 }
 
 .sidebar > ul {
@@ -621,8 +652,17 @@ body > header {
     padding-left: 0;
 }
 
+.content > h3,
 .sidebar h3 {
-    margin-top: 0
+	font-family: 'Georgia', serif;
+	font-weight: normal;
+	font-style: italic;
+    margin-bottom: 12px;
+    color: #454545;
+}
+
+.sidebar h3 {
+    margin-top: 0;
 }
 
 .sidebar .search fieldset {
@@ -636,7 +676,10 @@ body > header {
 
 body > footer {
     clear: both;
-    margin-top: 60px;
+    margin: 64px 10px 12px;
+    font-size: 13px;
+    padding-top: 12px;
+    border-top: 1px solid #dedede;
 }
 
 .social-medias {
@@ -652,6 +695,11 @@ body > footer {
 
 .widgets {
     margin-top: 32px;
+}
+
+.widgets ul {
+	list-style: square;
+	padding-left: 32px;
 }
 
 .comments {
@@ -695,4 +743,40 @@ body > footer {
 
 .comment h4 {
     margin: 0;
+}
+
+.wp-pagenavi,
+.pagination {
+	margin-top: 42px;
+	font-size: 14px;
+}
+
+.wp-pagenavi {
+	margin-left: 48px;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	border-radius: 2px;
+}
+
+.wp-pagenavi span.current {
+	border-color: #666;
+}
+
+.pagination .previous {
+	float: left;
+	margin-left: 120px;
+}
+
+.pagination .next {
+	float: right;
+	margin-right: 120px;
+}
+
+.pagination::after {
+	content:'';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
 }
