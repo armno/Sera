@@ -635,7 +635,7 @@ body > header {
 	line-height: 36px;
 }
 
-.content .post span {
+.content .post-title span {
 	text-transform: uppercase;
 	color: #acacac;
 }
