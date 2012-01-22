@@ -24,4 +24,3 @@
 		</header>
 
 		<div id="main">
-			<div class="content">
