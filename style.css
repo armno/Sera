@@ -712,7 +712,7 @@ body > footer {
     margin-bottom: 24px;
 }
 
-.comments ul {
+.comments ol {
     padding-left: 0;
     list-style: none;
 }
@@ -723,7 +723,8 @@ body > footer {
     padding: 12px 0;
 }
 
-.child-comments {
+.children {
+    list-style: none;
     margin-left: 48px;
     margin-bottom: 0;
 }
@@ -738,12 +739,30 @@ body > footer {
     color: #adadad;
 }
 
-.comment {
+.comment-text {
     margin-left: 80px;
 }
 
-.comment h4 {
+.comment-text h4 {
     margin: 0;
+}
+
+.comment-text p:last-child {
+    margin-bottom: 6px;
+}
+
+.comments-list .reply {
+    margin-left: 80px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.comments-list .reply a {
+    color: #ccc;
+}
+
+#respond .required {
+    display: none;
 }
 
 .wp-pagenavi,

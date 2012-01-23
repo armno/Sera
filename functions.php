@@ -8,4 +8,21 @@ if ( function_exists('register_sidebar') ) {
 	    ));
 }
 
+function sera_comments( $comment, $args, $depth ) {
+	$GLOBALS['comment'] = $comment; ?>
+	<li <?php comment_class(); ?> id="comment-<?php comment_ID() ?>">
+		<div class="avatar">
+			<?php echo get_avatar( $comment->comment_author_email, 64 ); ?>
+		</div>
+		<div class="comment-text">
+			<h4><?php echo get_comment_author_link(); ?></h4>
+			<p class="comment-time"><?php echo get_comment_date(); ?></p>
+			<?php comment_text() ?>
+		</div>
+		<div class="reply">
+         	<?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+        </div>
+	<?php
+}
+
 ?>
