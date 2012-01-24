@@ -10,7 +10,7 @@
 		<?php wp_head(); ?>
 	</head>
 
-	<body>
+	<body <?php body_class(); ?>>
 		<header>
 			<h1 id="blog-name">
 				<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>

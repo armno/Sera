@@ -630,19 +630,21 @@ body > header {
 
 
 .content .post {
-	margin-bottom: 24px;
+	margin-bottom: 18px;
 }
 
 .content .post-title {
-	font-size: 24px;
+	font-size: 18px;
 	margin: 6px 0;
 	font-weight: normal;
-	line-height: 36px;
+	line-height: 24px;
 }
 
 .content .post-title span {
 	text-transform: uppercase;
 	color: #acacac;
+    display: inline-block;
+    min-width: 60px;
 }
 
 .sidebar {
@@ -814,6 +816,7 @@ body > footer {
 	margin-bottom: 12px;
 	color: #333;
 	line-height: 48px;
+    font-weight: bold;
 }
 
 aside.sidebar {
@@ -848,4 +851,31 @@ aside.sidebar div {
 .post-categories {
     list-style: none;
     margin-bottom: 0;
+}
+
+.single-post .main-navigation {
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    filter:alpha(opacity=3);
+
+        -webkit-transition: all 0.5s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.5s ease-out;  /* FF4+ */
+      -ms-transition: all 0.5s ease-out;  /* IE10 */
+       -o-transition: all 0.5s ease-out;  /* Opera 10.5+ */
+          transition: all 0.5s ease-out;
+}
+
+.single-post .main-navigation:hover {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter:alpha(opacity=1);
+}
+
+#jump {
+    text-align: right;
+}
+
+#jump a {
+        position: fixed;
+    bottom: 64px;
 }
