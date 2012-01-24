@@ -15,7 +15,7 @@
 		<h3>search</h3>
 		<form action="<?php echo home_url( '/' ); ?>" method="get">
 		    <fieldset>
-		        <input type="search" placeholder="type and hit enter" name="s" id="search" size="30" value="<?php the_search_query(); ?>" />
+		        <input type="search" placeholder="type and hit enter" name="s" id="search" size="25" value="<?php the_search_query(); ?>" />
 		    </fieldset>
 		</form>
 	</section>

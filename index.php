@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_sidebar(); ?>
 			<div class="content">
 				<h3>blog</h3>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -29,5 +30,4 @@
 				<?php endif; ?>
 			</div><!-- .content -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

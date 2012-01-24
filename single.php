@@ -1,14 +1,7 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div class="content single">
-			<article <?php post_class(); ?>>
-				<h2 class="post-title"><?php the_title(); ?></h2>
-				
-				<?php the_content(); ?>
-			</article>
-			<?php comments_template(); ?> 
-	</div><!-- .content -->
+	
 	<aside class="sidebar">
 		<ul>
 			<li>Posted <div><?php the_date('F d, Y'); ?></div></li>
@@ -34,6 +27,15 @@
 
         </section>
 	</aside>
+
+	<div class="content single">
+			<article <?php post_class(); ?>>
+				<h2 class="post-title"><?php the_title(); ?></h2>
+				
+				<?php the_content(); ?>
+			</article>
+			<?php comments_template(); ?> 
+	</div><!-- .content -->
 <?php endwhile;
 
 else : ?>
