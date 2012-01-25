@@ -10,7 +10,7 @@
 			<li><?php the_tags('Tags<div>','&nbsp;&nbsp;', '</div>'); ?></li>
 		</ul>
 
- 		<section class="social-buttons clearfix">
+ 		<!-- <section class="social-buttons clearfix">
 
 			<div id="fb-root"></div>
 			<a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php the_title(); ?>" data-url="<?php the_permalink(); ?>" data-count="horizontal" data-via="armno" data-related="armno">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
@@ -25,7 +25,7 @@
 
 			<div class="fb-like" data-send="false" data-width="60" data-show-faces="true" data-layout="button_count"></div>
 
-        </section>
+        </section> -->
 
         <p id="jump">
 	        <a href="#main">back to top</a>

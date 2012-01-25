@@ -873,9 +873,7 @@ aside.sidebar div {
 
 #jump {
     text-align: right;
-}
-
-#jump a {
-        position: fixed;
-    bottom: 64px;
+    position: fixed;
+    bottom: 48px;
+    margin-left: 200px;
 }
