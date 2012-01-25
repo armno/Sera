@@ -881,3 +881,21 @@ aside.sidebar div {
 .fb-like {
     top: -4px;
 }
+
+pre.prettyprint { margin: 5px 5px 20px; padding: 30px 10px 10px; overflow: auto; position: relative} 
+pre.prettyprint:after {
+    content: attr(data-language);
+    padding-right: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    color: #AAA;
+    font-size: 13px}
+
+/*pre, code {
+    font-family: 'Droid Sans Mono', monospace }*/
+code {
+    padding: 3px 5px; background-color: #efefef }

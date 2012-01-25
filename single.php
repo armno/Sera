@@ -73,6 +73,7 @@
 					    wp_reset_query();
 					?>
 				</section>
+
 			</article>
 			<?php comments_template(); ?> 
 	</div><!-- .content -->
