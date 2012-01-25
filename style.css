@@ -858,7 +858,7 @@ aside.sidebar div {
     -moz-opacity: 0.3;
     filter:alpha(opacity=3);
 
-        -webkit-transition: all 0.5s ease-out;  /* Saf3.2+, Chrome */
+    -webkit-transition: all 0.5s ease-out;  /* Saf3.2+, Chrome */
      -moz-transition: all 0.5s ease-out;  /* FF4+ */
       -ms-transition: all 0.5s ease-out;  /* IE10 */
        -o-transition: all 0.5s ease-out;  /* Opera 10.5+ */
@@ -876,4 +876,8 @@ aside.sidebar div {
     position: fixed;
     bottom: 48px;
     margin-left: 200px;
+}
+
+.fb-like {
+    top: -4px;
 }
