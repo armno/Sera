@@ -894,8 +894,3 @@ pre.prettyprint:after {
     text-align: right;
     color: #AAA;
     font-size: 13px}
-
-/*pre, code {
-    font-family: 'Droid Sans Mono', monospace }*/
-code {
-    padding: 3px 5px; background-color: #efefef }
