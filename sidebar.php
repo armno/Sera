@@ -2,7 +2,7 @@
 
 	<section class="about">
 		<h3>about me</h3>
-		<p>A web developer, living in Chiang Mai, Thailand. Love taking photos, crafting web, cats, and stars. I blog about things I am interested in.</p>
+		<p>A web developer, living in the City of Culture &ndash; Chiang Mai, Thailand. Love taking photos, web, cats, and stars. I blog about web, photography, and (very few) astronomy.</p>
 		<ul class="social-medias">
 			<li><a href="http://www.facebook.com/armnoblog"><img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook"></a></li>
 			<li><a href="http://twitter.com/armno"><img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="twitter"></a></li>
