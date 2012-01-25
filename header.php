@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">

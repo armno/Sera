@@ -37,6 +37,67 @@
 				<h2 class="post-title"><?php the_title(); ?></h2>
 				
 				<?php the_content(); ?>
+
+				<div class="related-posts">
+					<?php
+					    $tags = get_the_tags();
+
+					    foreach ( $tags as $tag ) :
+					    	$current_tag = $tag->term_id;
+					    	$args = array(
+							    'tag__in' => array($current_tag),
+							    'post__not_in' => array($post->ID),
+							    'showposts'=>5,
+							    'ignore_sticky_posts'=>1
+							);
+
+							$my_query = new WP_Query($args);
+
+							if ( $my_query->have_posts() ) : ?>
+								<h4>Related Posts (beta)</h4>
+							    <ul>
+							    <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+							    	<li>
+								    <a href="<?php the_permalink() ?>" rel="bookmark" title="
+								    Permanent Link to <?php the_title_attribute(); ?>">
+							            <?php the_title(); ?></a>
+							        </li>
+							    <?php endwhile;  ?>
+							    </ul>
+							<?php
+								break;
+							endif;
+
+					    endforeach;
+					    wp_reset_query();
+					    /*
+					    if ($tags) :
+					        $first_tag = $tags[0]->term_id;
+					        $args = array(
+							    'tag__in' => array($first_tag),
+							    'post__not_in' => array($post->ID),
+							    'showposts'=>5,
+							    'ignore_sticky_posts'=>1
+							);
+
+						$my_query = new WP_Query($args);
+
+						if( $my_query->have_posts() ) : ?>
+						    <h4>Related Posts (beta)</h4>
+						    <ul>
+						    <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+						    	<li>
+							    <a href="<?php the_permalink() ?>" rel="bookmark" title="
+							    Permanent Link to <?php the_title_attribute(); ?>">
+						            <?php the_title(); ?></a>
+						        </li>
+						    <?php endwhile;  ?>
+						    </ul>
+					<?php  endif;
+					    endif;
+					    wp_reset_query(); */
+					?>
+					</div>
 			</article>
 			<?php comments_template(); ?> 
 	</div><!-- .content -->
