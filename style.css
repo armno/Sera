@@ -730,6 +730,7 @@ body > footer {
     clear: both;
     overflow: hidden;
     padding: 12px;
+    margin: 12px 0;
 }
 
 .bypostauthor {
@@ -754,7 +755,7 @@ body > footer {
 
 .children {
     list-style: none;
-    margin-left: 48px;
+    margin-left: 38px;
     margin-bottom: 0;
 }
 
@@ -769,8 +770,8 @@ body > footer {
 }
 
 .comment-text {
-    margin-left: 80px;
-    border-left: 8px solid #e8e8e8;
+    margin-left: 78px;
+    border-left: 6px solid #e8e8e8;
     padding-left: 12px;
 }
 
