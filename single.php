@@ -8,6 +8,9 @@
 			<li>By <div><?php the_author(); ?></div></li>
 			<li>Category <div><?php the_category(); ?></div></li>
 			<li><?php the_tags('Tags<div>','&nbsp;&nbsp;', '</div>'); ?></li>
+			<?php if(function_exists('the_views')) : ?>
+				<li>Views <div><?php the_views(); ?></div></li>
+			<?php endif; ?>
 		</ul>
 
         <p id="jump">
