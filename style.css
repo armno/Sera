@@ -917,3 +917,17 @@ pre.prettyprint:after {
     text-align: right;
     color: #AAA;
     font-size: 13px}
+
+.wp-caption {
+    text-align: center;
+    padding: 10px 6px 6px;
+    background-color: #f8f8f8;
+    border: 1px solid #dedede;
+    margin-bottom: 24px;
+}
+.wp-caption-text {
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 0;
+}
