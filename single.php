@@ -11,6 +11,7 @@
 			<?php if(function_exists('the_views')) : ?>
 				<li>Views <div><?php the_views(); ?></div></li>
 			<?php endif; ?>
+			<?php edit_post_link('edit', '<li>', '</li>'); ?>
 		</ul>
 
         <p id="jump">
