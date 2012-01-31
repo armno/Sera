@@ -899,6 +899,8 @@ aside.sidebar div {
     position: fixed;
     bottom: 48px;
     margin-left: 200px;
+
+    display: none;
 }
 
 .fb-like {
