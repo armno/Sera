@@ -3,7 +3,10 @@
 	<section class="about">
 		<h3>about me</h3>
 		<p>
-			<?php the_author_meta( 'user_description', 2); /* temporarily use 2 for ArmNo's user id on the database*/ ?> 
+			<?php 
+				$admin = get_userdatabylogin('ArmNo'); /* temporarily use the log in name : should be value from theme options */ 
+				the_author_meta( 'user_description', $admin->ID);
+			?> 
 		</p>
 		<ul class="social-medias">
 			<li><a href="http://www.facebook.com/armnoblog"><img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook"></a></li>
