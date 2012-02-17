@@ -4,9 +4,12 @@
 		<meta charset="<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+
 		<?php if ( is_singular() && get_option('thread_comments') ) wp_enqueue_script('comment-reply'); ?>
 		<?php wp_enqueue_script('jquery'); ?>
 		<?php wp_head(); ?>
