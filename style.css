@@ -628,7 +628,6 @@ body > header {
     margin-right: 10px;
 }
 
-
 .content .post {
 	margin-bottom: 18px;
 }
@@ -941,3 +940,13 @@ pre.prettyprint:after {
     color: #999;
 }
 
+.content.page-about {
+    width: 720px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.content.page-about h2 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
