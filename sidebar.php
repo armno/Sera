@@ -15,7 +15,7 @@
 			<li><a href="http://feeds.feedburner.com/armnointh"><img src="<?php bloginfo('template_url'); ?>/img/rss.png" alt="rss"></a></li>
 		</ul>
 	</section>
-
+<!-- 
 	<section class="search">
 		<h3>search</h3>
 		<form action="<?php echo home_url( '/' ); ?>" method="get">
@@ -23,7 +23,7 @@
 		        <input type="search"  x-webkit-speech placeholder="type and hit enter" name="s" id="search" size="25" value="<?php the_search_query(); ?>" />
 		    </fieldset>
 		</form>
-	</section>
+	</section> -->
 
 	<ul class="widgets">
 		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>

@@ -664,7 +664,6 @@ body > header {
 .content > h3,
 .sidebar h3 {
 	font-family: 'Georgia', serif;
-	font-weight: normal;
 	font-style: italic;
     margin-bottom: 12px;
     color: #454545;
@@ -709,9 +708,22 @@ body > footer {
 }
 
 .widgets ul {
-	list-style: square;
-	padding-left: 32px;
+	/*list-style: square;*/
+	padding-left: 0;
 }
+
+.blogroll {
+    line-height: 32px;
+}
+
+.blogroll li {
+    display: inline;
+    margin: 0 3px;
+    font-size: 14px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #efefef;
+} 
 
 .comments {
     margin-top: 48px;
