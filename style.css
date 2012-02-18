@@ -558,10 +558,11 @@ del {
 }
 
 label {
-    min-width: 100px;
+    /*min-width: 100px;*/
     display: inline-block;
     margin-right: 12px;
-    text-align:right;
+    /*text-align:right;*/
+    display: block;
 }
 
 input[type=text],
@@ -688,7 +689,7 @@ body > footer {
     margin: 64px 10px 12px;
     font-size: 13px;
     padding-top: 12px;
-    border-top: 1px solid #dedede;
+    border-top: 6px solid #e8e8e8;
     color: #969696;
 }
 
@@ -714,7 +715,7 @@ body > footer {
 
 .comments {
     margin-top: 48px;
-    border-top: 1px solid #ddd;
+    border-top: 6px solid #E8E8E8;
 }
 
 .comments > h3 {
@@ -795,6 +796,14 @@ body > footer {
 
 #respond .required {
     display: none;
+}
+
+#commentform {
+    margin-top: 12px;
+}
+
+#commentform p {
+    margin-bottom: 12px;
 }
 
 .wp-pagenavi,
@@ -898,7 +907,7 @@ aside.sidebar div {
     text-align: right;
     position: fixed;
     bottom: 48px;
-    margin-left: 200px;
+    margin-left: 180px;
 
     display: none;
 }
