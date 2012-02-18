@@ -689,6 +689,7 @@ body > footer {
     font-size: 13px;
     padding-top: 12px;
     border-top: 1px solid #dedede;
+    color: #969696;
 }
 
 .social-medias {
@@ -953,4 +954,9 @@ pre.prettyprint:after {
 
 body > footer p {
     text-align: center;
+}
+
+body > footer p:last-child {
+    font: italic 18px/24px 'Georgia', serif;
+    color: #ccc;
 }
