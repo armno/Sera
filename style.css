@@ -892,6 +892,9 @@ aside.sidebar div {
     color: #999;
 }
 
+aside.sidebar div a {
+    display: inline-block;
+}
 .post-categories {
     list-style: none;
     margin-bottom: 0;
