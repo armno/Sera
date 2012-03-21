@@ -5,12 +5,17 @@
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<article <?php post_class(); ?>>
 						<div class="post-thumbnail">
-							<?php the_post_thumbnail('thumbnail'); ?>
+							<?php 
+							if ( has_post_thumbnail() ) :
+								the_post_thumbnail('thumbnail');
+							else : ?>
+								<img src="<?php bloginfo('template_url'); ?>/img/app.png" alt="">
+							<?php endif; ?>
 						</div>
 						<h2 class="post-title">
 							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 						</h2>
-						<div class="post-time"><?php the_date('F d'); ?></div>
+						<div class="post-time"><?php the_date('F d, Y'); ?></div>
 
 						<?php the_excerpt(); ?>
 					</article>
