@@ -4,10 +4,15 @@
 				<h3>blog</h3>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<article <?php post_class(); ?>>
+						<div class="post-thumbnail">
+							<?php the_post_thumbnail('thumbnail'); ?>
+						</div>
 						<h2 class="post-title">
-							<span><?php the_date('Md'); ?></span>&nbsp;&mdash;&nbsp;<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						</h2>
+						<div class="post-time"><?php the_date('F d'); ?></div>
 
-						<?php #the_content('(more ...)'); ?>
+						<?php the_excerpt(); ?>
 					</article>
 
 				<?php endwhile;

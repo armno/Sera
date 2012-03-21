@@ -630,21 +630,36 @@ body > header {
 }
 
 .content .post {
-	margin-bottom: 18px;
+	margin-bottom: 24px;
+	clear: both;
+	overflow: hidden;
+}
+
+.content .post-thumbnail {
+	float: left;
+	margin-right: 24px;
+	margin-top: 12px;
+	padding: 12px;
+	background-color: #eee;
+	line-height: 0;
+	border: 1px solid #dedede;
+}
+
+.content .post-thumbnail img {
+	background-color: #fff;
 }
 
 .content .post-title {
-	font-size: 18px;
+	font-size: 22px;
 	margin: 6px 0;
 	font-weight: normal;
 	line-height: 24px;
 }
 
-.content .post-title span {
-	text-transform: uppercase;
+.content .post-time {
 	color: #acacac;
-    display: inline-block;
-    min-width: 60px;
+	font-size: 14px;
+	margin-bottom: 12px;
 }
 
 .sidebar {
