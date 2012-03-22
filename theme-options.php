@@ -1,14 +1,27 @@
 <?php
 // Options Page Functions
 
+/**
+ * Saves form data into wordpress options when data is submitted
+ **/
 if ( isset($_POST['social-media']) ) {
 	sera_save_data($_POST);
 	?>
 	<div id="setting-error-settings_updated" class="updated settings-error"> 
-	<p><strong>Settings saved.</strong></p></div>
+		<p>
+			<strong>Settings saved.</strong>
+		</p>
+	</div>
 	<?php
 }
 
+/**
+ * Update theme options
+ * 
+ * @param array $data an array of data to be updated
+ * @return void
+ * @author ArmNo
+ **/
 function sera_save_data( $data ) {
     update_option('sera_facebook_url', $data['facebook-page']);
     update_option('sera_twitter_username', $data['twitter-username']);
@@ -16,12 +29,26 @@ function sera_save_data( $data ) {
     update_option('sera_feeds_url', $data['rss-url']);
 }
 
+/**
+ * Tells WordPress to add new menu item in admin
+ *
+ * @param null
+ * @return void
+ * @author ArmNo
+ **/
 function themeoptions_admin_menu()
 {
 	// here's where we add our theme options page link to the dashboard sidebar
 	add_menu_page("Sera Options", "Sera Options", 'edit_themes', basename(__FILE__), 'themeoptions_page');
 }
 
+/**
+ * Displays content in theme option page
+ *
+ * @param null
+ * @return void
+ * @author ArmNo
+ **/
 function themeoptions_page()
 {
 	// here is the main function that will generate our options page
@@ -36,12 +63,11 @@ function themeoptions_page()
 		<ul>
 			<li>Layout</li>
 			<li>Colors (background, text, links)</li>
-			<li>Social Medias</li>
 			<li>Main Menu Icons</li>
 			<li>Blog Logo</li>
 		</ul>
 
-		<h3>Social Medias</h3>
+		<h3>Social Networks</h3>
 		<form action="admin.php?page=theme-options.php" method="post">
 			<input type="hidden" name="social-media" value="1">
 			
