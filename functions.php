@@ -52,4 +52,7 @@ function sera_comments( $comment, $args, $depth ) {
 if ( function_exists( 'add_theme_support' ) ) { 
   add_theme_support( 'post-thumbnails' ); 
 }
+
+// theme options
+require_once ( get_template_directory() . '/theme-options.php' )
 ?>
