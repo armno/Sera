@@ -4,7 +4,7 @@
 function themeoptions_admin_menu()
 {
 	// here's where we add our theme options page link to the dashboard sidebar
-	add_theme_page("Theme Options", "Theme Options", 'edit_themes', basename(__FILE__), 'themeoptions_page');
+	add_menu_page("Sera Options", "Sera Options", 'edit_themes', basename(__FILE__), 'themeoptions_page');
 }
 
 function themeoptions_page()
