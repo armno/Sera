@@ -117,4 +117,5 @@ function themeoptions_page()
 
 add_action('admin_menu', 'themeoptions_admin_menu');
 
+add_filter('jpeg_quality', function($arg){return 100;});
 ?>
