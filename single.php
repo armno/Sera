@@ -25,6 +25,7 @@
 				
 				<?php the_content(); ?>
 
+				<?php /*
 				<section class="social-buttons clearfix">
 					<h4>Share</h4>
 					<div id="fb-root"></div>
@@ -42,7 +43,7 @@
 					<a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php the_title(); ?>" data-url="<?php the_permalink(); ?>" data-count="horizontal" data-via="armno" data-related="armno">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 
 		        </section>
-
+				*/ ?>
 		        <section class="related-posts">
 					<?php
 					    $tags = get_the_tags();
