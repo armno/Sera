@@ -592,19 +592,20 @@ body > header {
     overflow: hidden;
     margin-left: 24px;
     margin-right: 24px;
+    padding-top: 48px;
 }
 
 #blog-name {
     font-size: 32px;
     float: left;
-    margin-top: 48px;
+    /*margin-top: 48px;*/
     line-height: 24px;
     min-width: 572px;
 }
 
 .main-navigation {
     float: right;
-    margin-top: 56px;
+    margin-top: 24px;
 }
 
 .main-navigation li {
