@@ -109,7 +109,7 @@ textarea {
  */
 
 a {
-    color: #333;
+    color: #21759B;
     text-decoration:none;
 
     -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
@@ -131,8 +131,11 @@ a:focus {
 a:hover,
 a:active {
     outline: 0;
-    color: #666;
-    border-bottom: 1px dotted;
+    color: #D54E21;
+}
+
+a:visited {
+    color: #4CA6CF;
 }
 
 
