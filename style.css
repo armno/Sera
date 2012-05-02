@@ -701,6 +701,14 @@ body > header {
     margin: 0; padding: 0;
 }
 
+    .single-post .sidebar {
+        width: 200px;
+    }
+
+    .single-post .content {
+        width: 674px;
+    }
+
 #main {
     clear: both;
     overflow: hidden;
@@ -887,7 +895,7 @@ body > footer {
 }
 
 aside.sidebar {
-    opacity: 0.3;
+    /*opacity: 0.3;*/
     margin-top: 48px;
     text-align: right;
     font-size: 13px;
@@ -901,9 +909,9 @@ aside.sidebar {
           transition: all 0.5s ease-out;
 }
 
-aside.sidebar:hover {
+/*aside.sidebar:hover {
     opacity: 1;
-}
+}*/
 
 aside.sidebar li {
     margin-bottom: 12px;
@@ -927,15 +935,15 @@ aside.sidebar div a:hover {
     margin-bottom: 0;
 }
 
-.single-post .main-navigation {
+/*.single-post .main-navigation {
     opacity: 0.3;
     -moz-opacity: 0.3;
     filter:alpha(opacity=3);
 
-    -webkit-transition: all 0.5s ease-out;  /* Saf3.2+, Chrome */
-     -moz-transition: all 0.5s ease-out;  /* FF4+ */
-      -ms-transition: all 0.5s ease-out;  /* IE10 */
-       -o-transition: all 0.5s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out; 
+      -ms-transition: all 0.5s ease-out;
+       -o-transition: all 0.5s ease-out;
           transition: all 0.5s ease-out;
 }
 
@@ -943,13 +951,13 @@ aside.sidebar div a:hover {
     opacity: 1;
     -moz-opacity: 1;
     filter:alpha(opacity=1);
-}
+}*/
 
 #jump {
     text-align: right;
     position: fixed;
     bottom: 48px;
-    margin-left: 180px;
+    margin-left: 100px;
 
     display: none;
 }
