@@ -714,6 +714,12 @@ body > header {
     overflow: hidden;
 }
 
+#subscribe {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
 body > footer {
     clear: both;
     margin: 64px 10px 12px;

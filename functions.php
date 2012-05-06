@@ -49,10 +49,13 @@ function sera_comments( $comment, $args, $depth ) {
 	<?php
 }
 
+// enable featured image for posts and pages
 if ( function_exists( 'add_theme_support' ) ) { 
   add_theme_support( 'post-thumbnails' ); 
 }
 
+// include theme's javascript
+wp_enqueue_script('sera-js', get_template_directory_uri().'/js/script.js', 'jquery', '1.0', true);
+
 // theme options
-require_once ( get_template_directory() . '/theme-options.php' )
-?>
+require_once ( get_template_directory() . '/theme-options.php' );

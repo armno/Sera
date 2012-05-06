@@ -25,25 +25,6 @@
 				
 				<?php the_content(); ?>
 
-				<?php /*
-				<section class="social-buttons clearfix">
-					<h4>Share</h4>
-					<div id="fb-root"></div>
-
-					<script>(function(d, s, id) {
-					  var js, fjs = d.getElementsByTagName(s)[0];
-					  if (d.getElementById(id)) {return;}
-					  js = d.createElement(s); js.id = id;
-					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-					  fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));</script>
-
-					<div class="fb-like" data-send="false" data-width="40" data-show-faces="true" data-layout="button_count"></div>
-
-					<a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php the_title(); ?>" data-url="<?php the_permalink(); ?>" data-count="horizontal" data-via="armno" data-related="armno">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-
-		        </section>
-				*/ ?>
 		        <section class="related-posts">
 					<?php
 					    $tags = get_the_tags();

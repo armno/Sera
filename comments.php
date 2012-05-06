@@ -14,7 +14,8 @@
 <?php endif; // if you delete this the sky will fall on your head ?>
 <?php comment_form(array(
 	'comment_notes_before' => null,
-	'title_reply' => __('Leave a Comment')
+	'title_reply' => __('Leave a Comment'),
+	'comment_notes_after' => null
 )); ?>
 
 </div>
