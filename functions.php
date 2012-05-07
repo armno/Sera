@@ -55,7 +55,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 // include theme's javascript
-wp_enqueue_script('sera-js', get_template_directory_uri().'/js/script.js', 'jquery', '1.0', true);
+// wp_enqueue_script('sera-js', get_template_directory_uri().'/js/script.js', 'jquery', '1.0', true);
 
 // theme options
 require_once ( get_template_directory() . '/theme-options.php' );

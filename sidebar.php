@@ -9,10 +9,25 @@
 			?> 
 		</p>
 		<ul class="social-medias">
-			<li><a href="<?php echo get_option('sera_facebook_url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook"></a></li>
-			<li><a href="http://twitter.com/<?php echo get_option('sera_twitter_username'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="twitter"></a></li>
-			<li><a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/flickr.png" alt="flickr"></a></li>
-			<li><a href="<?php echo get_option('sera_feeds_url'); ?>"><img src="<?php bloginfo('template_url'); ?>/img/rss.png" alt="rss"></a></li>
+			<li>
+				<a href="<?php echo get_option('sera_facebook_url'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook">
+				</a></li>
+			<li>
+				<a href="http://twitter.com/<?php echo get_option('sera_twitter_username'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="twitter">
+				</a>
+			</li>
+			<li>
+				<a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/flickr.png" alt="flickr">
+				</a>
+			</li>
+			<li>
+				<a href="<?php echo get_option('sera_feeds_url'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/rss.png" alt="rss">
+				</a>
+			</li>
 		</ul>
 	</section>
 <!-- 
