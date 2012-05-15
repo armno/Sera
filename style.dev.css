@@ -1025,3 +1025,98 @@ body > footer p:last-child {
     font: italic 18px/24px 'Georgia', serif;
     color: #ccc;
 }
+
+/* 980 px or less*/
+@media screen and (max-width: 980px) {
+  
+  body {
+    width: 95%;
+  }
+
+  body > header {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .single-post .sidebar,
+  .sidebar {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .single-post .content,
+  .content {
+    width: 67%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .content.page-about {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  #jump {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .single-post .sidebar,
+    .sidebar,
+    .single-post .content,
+    .content {
+        float: none;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .home .sidebar {
+        padding-top: 2%;
+        padding-bottom: 3%;
+        border-top: 4px solid #ddd;
+        border-bottom: 4px solid #ddd;
+    }
+
+    .sidebar .social-medias {
+        margin-bottom: 0;
+    }
+
+    .content.page-about {
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    ul.widgets {
+        display: none;
+    }
+
+    aside.sidebar {
+        text-align: left;
+    }
+
+    .sidebar > ul {
+        margin: 0;
+    }
+
+    .single-post .sidebar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 4px solid #eee;
+        border-bottom: 4px solid #eee;
+    }
+
+    .single-post .sidebar li,
+    .single-post .sidebar div {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .post-categories {
+        padding: 0;
+    }
+}
