@@ -6,6 +6,7 @@
 			</p>
 			<p>Made in Chiang Mai.</p>
 		</footer>
+		<?php /*
 		<script>
 			// inline small script to reduce number of HTTP requests
 			jQuery(document).ready(function($) {
@@ -30,6 +31,7 @@
 
 			});
 		</script>
+		*/ ?>
 		<?php wp_footer(); ?>
 	</body>
 </html>
