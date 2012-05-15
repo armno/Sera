@@ -1038,6 +1038,10 @@ body > footer p:last-child {
     margin-right: 2%;
   }
 
+  #blog-name {
+  	min-width: 50%;
+  }
+
   .single-post .sidebar,
   .sidebar {
     width: 25%;
@@ -1064,6 +1068,9 @@ body > footer p:last-child {
 }
 
 @media screen and (max-width: 768px) {
+	#blog-name {
+		min-width: 20%;
+	}
     .single-post .sidebar,
     .sidebar,
     .single-post .content,
