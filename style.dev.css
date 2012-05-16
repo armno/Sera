@@ -1038,6 +1038,11 @@ body > footer p:last-child {
     margin-right: 2%;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
   #blog-name {
   	min-width: 50%;
   }
