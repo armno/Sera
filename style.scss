@@ -19,6 +19,13 @@ Version: 0.1
 
 }
 
+@font-face {
+    font-family: 'Socialico';
+    src: url('font/Socialico.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*! normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */
 
@@ -124,6 +131,7 @@ textarea {
 a {
     color: #21759B;
     text-decoration:none;
+    cursor: pointer;
 
     -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
      -moz-transition: all 0.3s ease-out;  /* FF4+ */
@@ -617,6 +625,12 @@ form div {
     margin: 12px 0;
 }
 
+.ir {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
 
 #blog-name {
     font-size: 32px;
@@ -643,7 +657,7 @@ form div {
             font-size: 34px;
             top: -8px;
             left: -3px;
-            color: #D54E21;
+            /*color: #D54E21;*/
         }
 
         &:nth-child(1)::before {
@@ -757,6 +771,10 @@ form div {
         margin: 0; padding: 0;
     }
 
+    .about {
+        overflow: hidden;
+    }
+
 }
 
 .single-post {
@@ -785,14 +803,20 @@ form div {
     padding-left: 0;
 
     li {
-        display: inline;
+        font-family: 'Socialico';
+        font-size: 48px;
         margin: 0 6px;
+        float: left;
+/*        a {
+            color: #D54E21;
+        }*/
     }
 }
 
 
 .widgets {
     margin-top: 32px;
+    clear: both;
 
     ul {
         padding-left: 0;
