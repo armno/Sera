@@ -634,17 +634,28 @@ form div {
         display: inline;
         margin-left: 24px;
         padding-left: 24px;
+        position: relative;
 
-        &:nth-child(1) {
-            background: url('img/my-account.png') left center no-repeat;
+        &:before {
+            display: block;
+            position: absolute;
+            font-family: 'EntypoRegular';
+            font-size: 34px;
+            top: -8px;
+            left: -3px;
+            color: #D54E21;
         }
 
-        &:nth-child(2) {
-            background: url('img/photography.png') left center no-repeat;
+        &:nth-child(1)::before {
+            content: '+';
         }
 
-        &:nth-child(3) {
-            background: url('img/email.png') left center no-repeat;
+        &:nth-child(2)::before {
+            content: 'D';
+        }
+
+        &:nth-child(3)::before {
+            content: '%';
         }
     }
 }
