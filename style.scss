@@ -661,15 +661,15 @@ form div {
         }
 
         &:nth-child(1)::before {
-            content: '+';
+            content: '\002B';
         }
 
         &:nth-child(2)::before {
-            content: 'D';
+            content: '\0044';
         }
 
         &:nth-child(3)::before {
-            content: '%';
+            content: '\0025';
         }
     }
 }
