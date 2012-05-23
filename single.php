@@ -14,9 +14,6 @@
 			<?php edit_post_link('edit', '<li>', '</li>'); ?>
 		</ul>
 
-        <p id="jump">
-	        <a href="#main">back to top</a>
-        </p>
 	</aside>
 
 	<div class="content single">
