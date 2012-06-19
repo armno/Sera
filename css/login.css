@@ -16,6 +16,6 @@ body.login {
 }
 #login h1,#nav,#backtoblog {display: none;}
 #wp-submit {
-display: none;
+display: inline-block;
 }
 
