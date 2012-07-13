@@ -3,19 +3,44 @@ body.login {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background: url(http://farm8.staticflickr.com/7116/7057136685_16caead230_h.jpg) center center no-repeat;
+	background: url(../img/bg.jpg) center center no-repeat;
 }
+
 .login label {
-	color: rgba(255, 255, 255, 0.54);
+	color: rgba(255, 255, 255, 0);
 	font-size: 16px;
 }
+
 .login form {
 	background: none;
 	border: 0;
 	box-shadow: none;
 }
-#login h1,#nav,#backtoblog {display: none;}
-#wp-submit {
-display: inline-block;
+
+.login form .input {
+	font-size: 60px;
+	padding: 10px;
 }
 
+#login {
+	width: 700px;
+}
+
+#login h1,
+#nav,
+#backtoblog,
+.forgetmenot {
+	display: none;
+}
+
+#wp-submit {
+	display: inline-block;
+	border-radius: 2px;
+	font-size: 60px !important;
+	line-height: 60px;
+	padding: 20px 40px;
+	background: rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.1);
+	text-transform: uppercase;
+	box-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
