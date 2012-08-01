@@ -191,7 +191,7 @@ strong {
 
 blockquote {
     margin: 1em 40px;
-    font: italic 16px/24px serif;
+    font: italic 14px/21px serif;
     padding-left: 12px;
     border-left: 8px solid #dedede;
 }
@@ -531,8 +531,8 @@ th {
 /*=== custom style ==*/
 
 body {
-    font-size: 16px;
-    line-height: 24px;    
+    font-size: 14px;
+    line-height: 21px;    
     width: 970px;
     margin: auto;
     color: #666;
@@ -567,27 +567,31 @@ article {
     max-width: 970px;
     margin: auto;
 }
+
 h1 {
     font-size: 110px;
     line-height: 120px;
     margin-top: 24px;
     margin-bottom: 48px;
 }
+
 h2 {
     font-size: 42px;
     line-height: 48px;
     margin-top: 48px;
     margin-bottom: 24px;
 }
+
 h3 {
-    font-size: 26px;
-    line-height: 48px;
-    margin-top: 24px;
-    margin-bottom: 0px;
+    font-size: 23px;
+    line-height: 42px;
+    margin-top: 21px;
+    margin-bottom: 0;
 }
+
 p, ul {
-    margin-top: 0px;
-    margin-bottom: 24px;
+    margin-top: 0;
+    margin-bottom: 21px;
 }
 
 abbr {
@@ -805,7 +809,7 @@ form div {
     li {
         font-family: 'Socialico';
         font-size: 48px;
-        margin: 0 6px;
+        margin: 12px 6px;
         float: left;
 /*        a {
             color: #D54E21;
@@ -968,7 +972,7 @@ form div {
 }
 
 aside.sidebar {
-    margin-top: 96px;
+    margin-top: 98px;
     text-align: right;
     font-size: 13px;
     text-transform: uppercase;
