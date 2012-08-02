@@ -19,6 +19,9 @@
 				<a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">n</a>
 			</li>
 			<li>
+				<a href="https://github.com/armno">g</a>
+			</li>
+			<li>
 				<a href="<?php echo get_option('sera_feeds_url'); ?>">r</a>
 			</li>
 		</ul>
