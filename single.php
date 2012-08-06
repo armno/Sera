@@ -2,6 +2,7 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	
+	<?php /*
 	<aside class="sidebar">
 		<ul>
 			<li>Posted <div><?php the_date('F d, Y'); ?></div></li>
@@ -15,10 +16,14 @@
 		</ul>
 
 	</aside>
-
+	*/ ?>
 	<div class="content single">
 			<article <?php post_class(); ?>>
 				<h2 class="post-title"><?php the_title(); ?></h2>
+				<small class="meta">
+					<span class="published-date"><?php the_date('F d, Y'); ?></span>
+					<span class="category-list"><?php the_category(); ?></span>
+				</small>
 				
 				<?php the_content(); ?>
 
