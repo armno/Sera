@@ -17,16 +17,18 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<header>
-			<h1 id="blog-name">
-				<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-			</h1>
+		<div class="header-wrap">
+			<header>
+				<h1 id="blog-name">
+					<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+				</h1>
 
-			<?php wp_nav_menu(array(
-				'container' => 'nav',
-				'theme_location' => 'top',
-				'container_class' => 'main-navigation'
-			)); ?>
-		</header>
+				<?php wp_nav_menu(array(
+					'container' => 'nav',
+					'theme_location' => 'top',
+					'container_class' => 'main-navigation'
+				)); ?>
+			</header>
+		</div>
 
 		<div id="main">
