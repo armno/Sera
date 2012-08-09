@@ -536,23 +536,20 @@ html {
 
 .header-wrap {
     /*background-color: #333;*/
-    background: url(img/low_contrast_linen.png) center repeat;
+    /*background: url(img/low_contrast_linen.png) center repeat;*/
     overflow: hidden;
-    text-shadow: 0 1px 0 #111;
-    border-bottom: 1px solid #222;
+    /*text-shadow: 0 1px 0 #111;*/
+    /*border-bottom: 1px solid #222;*/
 
     & > header {
-        width: 970px;
+        padding: 0 36px;
+        width: 1104px;
         margin: auto;
     }
 
     a {
-        color: #acacac;
+        color: #333;
         font-weight: bold;
-
-        &:hover {
-            color: #fff;
-        }
     }
 }
 
@@ -680,7 +677,7 @@ code {
     line-height: 24px;
     min-width: 552px;
     margin-bottom: 24px;
-    padding-left: 24px;
+    /*padding-left: 24px;*/
 }
 
 .main-navigation {
@@ -724,9 +721,9 @@ code {
 
 .content {
     float: left;
-    width: 602px;
-    margin-left: 24px;
-    margin-right: 24px;
+    width: 724px;
+    margin-left: 36px;
+    margin-right: 36px;
 
     .post {
         margin-bottom: 24px;
@@ -778,9 +775,9 @@ code {
     }
 
     &.page-about {
-        width: 720px;
-        margin-left: 125px;
-        margin-right: 125px;
+        width: 800px;
+        margin: auto;
+        float: none;
 
         h2 {
             font-size: 60px;
@@ -793,8 +790,8 @@ code {
     clear: both;
     float: left;
     width: 272px;
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right: 36px;
+    margin-left: 36px;
     margin-top: 24px;
 
     &> ul {
@@ -826,19 +823,30 @@ code {
         width: 200px;
     }
     .content {
-        width: 674px;
+        width: 874px;
+        margin: auto;
+        float: none;
+    }
+
+    .meta {
+        margin-bottom: 24px;
+        display: block;
+        font-size: 13px;
+        font-style: italic;
+        color: #ccc;
     }
 }
 
 #main {
     clear: both;
     overflow: hidden;
-    width: 970px;
+    width: 1140px;
     margin: auto;
     margin-bottom: 6px;
     padding-bottom: 64px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .25), 0 1px 0 white inset;
     background-color: #fff;
+    border-radius: 5px;
 }
 
 #subscribe {
@@ -1083,6 +1091,12 @@ aside.sidebar {
 .post-categories {
     list-style: none;
     margin-bottom: 0;
+    display: inline;
+    padding-left: 0;
+
+    li {
+        display: inline;
+    }
 }
 
 .fb-like {
