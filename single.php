@@ -27,6 +27,36 @@
 				
 				<?php the_content(); ?>
 
+				<section class="sharing">
+					<div id="fb-root"></div>
+
+					<a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php the_title(); ?>" data-url="<?php echo get_permalink(); ?>" data-count="horizontal" data-via="armno" data-related="armno">Tweet</a>
+					<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+					<g:plusone size="medium"></g:plusone>
+
+
+					<div class="fb-like" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-send="false" data-width="70" data-show-faces="false"></div>
+
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					    po.src = 'https://apis.google.com/js/plusone.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=183426421717643";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</section>
+
 		        <section class="related-posts">
 					<?php
 					    $tags = get_the_tags();
