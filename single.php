@@ -21,7 +21,7 @@
 			<article <?php post_class(); ?>>
 				<h2 class="post-title"><?php the_title(); ?></h2>
 				<small class="meta">
-					<span class="published-date"><?php the_date('F d, Y'); ?></span>
+					<span class="published-date"><?php the_date('F d, Y'); ?></span> in 
 					<span class="category-list"><?php the_category(); ?></span>
 				</small>
 				
