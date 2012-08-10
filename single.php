@@ -38,7 +38,7 @@
 
 					<div class="fb-like" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-send="false" data-width="70" data-show-faces="false"></div>
 
-					<script type="text/javascript">
+					<script>
 					  (function() {
 					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 					    po.src = 'https://apis.google.com/js/plusone.js';
@@ -74,13 +74,21 @@
 								$my_query = new WP_Query($args);
 
 								if ( $my_query->have_posts() ) : ?>
-									<h4>Related Posts (beta)</h4>
+									<h4>Related Posts</h4>
 								    <ul>
 								    <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 								    	<li>
 									    <a href="<?php the_permalink() ?>" rel="bookmark" title="
 									    Permanent Link to <?php the_title_attribute(); ?>">
-								            <?php the_title(); ?></a>
+									    	<div>
+									    	<?php if ( has_post_thumbnail() ) :
+												the_post_thumbnail('thumbnail');
+											else : ?>
+												<img src="<?php bloginfo('template_url'); ?>/img/app.png" alt="">
+											<?php endif; ?>
+									    	</div>
+								            <?php the_title(); ?>
+								        </a>
 								        </li>
 								    <?php endwhile;  ?>
 								    </ul>
