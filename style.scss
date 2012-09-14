@@ -556,6 +556,7 @@ html {
 body {
     font-size: 14px;
     line-height: 21px;    
+    font-family: 'Open Sans';
     /*width: 970px;*/
     margin: auto;
     color: #666;
@@ -583,7 +584,7 @@ body {
             text-align: center;
 
             &:last-child {
-                font: italic 18px/24px 'Georgia', serif;
+                font: italic 18px/24px 'Quattrocento', serif;
                 color: #aaa;
             }
         }
@@ -689,7 +690,7 @@ code {
         margin-left: 24px;
         padding-left: 24px;
         position: relative;
-
+/*
         &:before {
             display: block;
             position: absolute;
@@ -697,8 +698,7 @@ code {
             font-size: 34px;
             top: -8px;
             left: -3px;
-            /*color: #D54E21;*/
-            /*color: #BBECFF;*/
+            color: #BBECFF;
         }
 
         &:nth-child(1)::before {
@@ -711,7 +711,11 @@ code {
 
         &:nth-child(3)::before {
             content: '\0025';
-        }
+        }*/
+    }
+
+    a:hover {
+        color: #D54E21;
     }
 }
 
@@ -760,7 +764,7 @@ code {
     }
 
     &> h3 {
-        font-family: 'Georgia', serif;
+        font-family: 'Quattrocento', serif;
         font-style: italic;
         margin-bottom: 12px;
         color: #454545;
@@ -818,7 +822,7 @@ code {
     }
 
     h3 {
-        font-family: 'Georgia', serif;
+        font-family: 'Quattrocento', serif;
         font-style: italic;
         margin-bottom: 12px;
         color: #454545;
@@ -1154,7 +1158,7 @@ pre.prettyprint:after {
 }
 
 .pingback span {
-    font-family: Georgia, serif;
+    font-family: 'Quattrocento', serif;
     font-style: italic;
     color: #999;
 }
