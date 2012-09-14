@@ -729,6 +729,7 @@ code {
         margin-bottom: 24px;
         clear: both;
         overflow: hidden;
+        padding-top: 12px;
     }
 
     .post-thumbnail {
@@ -786,6 +787,23 @@ code {
     }
 }
 
+.related-posts {
+
+    margin-top: 36px;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+        width: 150px;
+        margin-right: 24px;
+    }
+}
+
 .sidebar {
     clear: both;
     float: left;
@@ -831,9 +849,13 @@ code {
     .meta {
         margin-bottom: 24px;
         display: block;
-        font-size: 13px;
+        font-size: 14px;
         font-style: italic;
         color: #ccc;
+    }
+
+    .sharing {
+        margin-top: 40px;
     }
 }
 
