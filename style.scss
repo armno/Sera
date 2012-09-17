@@ -576,18 +576,22 @@ body {
 
     &> footer {
         clear: both;
-        margin: 0 10px 12px;
+        /*margin: 0 10px 12px;*/
         font-size: 13px;
-        padding-top: 12px;
+        padding-top: 40px;
         /*border-top: 6px solid #e8e8e8;*/
         color: #969696;
+        background: #333;
+        padding-bottom: 200px;
 
         p {
             text-align: center;
 
             &:last-child {
-                font: italic 18px/24px 'Quattrocento', serif;
-                color: #aaa;
+                margin-top: 200px;
+                font: italic 72px/1.5em 'Quattrocento', serif;
+                color: #3a3a3a;
+                text-shadow: 0 1px 0 #2A2A2A;
             }
         }
     }
