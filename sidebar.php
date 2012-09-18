@@ -10,19 +10,29 @@
 		</p>
 		<ul class="social-medias">
 			<li>
-				<a href="<?php echo get_option('sera_facebook_url'); ?>">f</a>
+				<a href="<?php echo get_option('sera_facebook_url'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="">
+				</a>
 			</li>
 			<li>
-				<a href="http://twitter.com/<?php echo get_option('sera_twitter_username'); ?>">t</a>
+				<a href="http://twitter.com/<?php echo get_option('sera_twitter_username'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="">
+				</a>
 			</li>
 			<li>
-				<a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">n</a>
+				<a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/flickr.png" alt="">
+				</a>
 			</li>
 			<li>
-				<a href="https://github.com/armno">g</a>
+				<a href="https://github.com/armno">
+					<img src="<?php bloginfo('template_url'); ?>/img/github.png" alt="">
+				</a>
 			</li>
 			<li>
-				<a href="<?php echo get_option('sera_feeds_url'); ?>">r</a>
+				<a href="<?php echo get_option('sera_feeds_url'); ?>">
+					<img src="<?php bloginfo('template_url'); ?>/img/rss.png" alt="">
+				</a>
 			</li>
 		</ul>
 	</section>
