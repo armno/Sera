@@ -544,9 +544,10 @@ html {
     /*border-bottom: 1px solid #222;*/
 
     & > header {
-        padding: 0 36px;
-        width: 1104px;
+        // padding: 0 36px;
+        width: 1140px;
         margin: auto;
+        overflow: hidden;
     }
 
     a {
@@ -732,9 +733,9 @@ code {
 
 .content {
     float: left;
-    width: 724px;
+    width: 760px;
     margin-left: 36px;
-    margin-right: 36px;
+    // margin-right: 36px;
     margin-top: 30px;
 
     .post {
@@ -819,9 +820,9 @@ code {
 .sidebar {
     clear: both;
     float: left;
-    width: 272px;
+    width: 308px;
     margin-right: 36px;
-    margin-left: 36px;
+    // margin-left: 36px;
     margin-top: 24px;
     padding-top: 30px;
 
