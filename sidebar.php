@@ -24,11 +24,13 @@
 					<img src="<?php bloginfo('template_url'); ?>/img/flickr.png" alt="">
 				</a>
 			</li>
+			<?php /*
 			<li>
 				<a href="https://github.com/armno">
 					<img src="<?php bloginfo('template_url'); ?>/img/github.png" alt="">
 				</a>
 			</li>
+			*/ ?>
 			<li>
 				<a href="<?php echo get_option('sera_feeds_url'); ?>">
 					<img src="<?php bloginfo('template_url'); ?>/img/rss.png" alt="">
