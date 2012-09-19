@@ -1,5 +1,7 @@
 <?php 
 
+add_theme_support( 'automatic-feed-links' );
+
 function custom_login() { 
 	echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/css/login.css" />'; 
 }

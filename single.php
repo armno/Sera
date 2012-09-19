@@ -84,7 +84,7 @@
 									    	<?php if ( has_post_thumbnail() ) :
 												the_post_thumbnail('thumbnail');
 											else : ?>
-												<img src="<?php bloginfo('template_url'); ?>/img/app.png" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/app.png" alt="">
 											<?php endif; ?>
 									    	</div>
 								            <?php the_title(); ?>
