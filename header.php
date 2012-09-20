@@ -4,8 +4,8 @@
 		<meta charset="<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<!-- <meta name="viewport" content="width=device-width"> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans|Quattrocento' rel='stylesheet' type='text/css'>

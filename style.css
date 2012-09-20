@@ -976,6 +976,9 @@ pre.prettyprint:after {
       margin-left: 2%;
       margin-right: 2%; }
 
+  #main {
+    width: 95%; }
+
   .header-wrap > header {
     width: 95%; }
 
