@@ -10,18 +10,15 @@
 		</p>
 		<ul class="social-medias">
 			<li>
-				<a href="<?php echo get_option('sera_facebook_url'); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="">
+				<a class="facebook" href="<?php echo get_option('sera_facebook_url'); ?>">
 				</a>
 			</li>
 			<li>
-				<a href="http://twitter.com/<?php echo get_option('sera_twitter_username'); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" alt="">
+				<a class="twitter" href="http://twitter.com/<?php echo get_option('sera_twitter_username'); ?>">
 				</a>
 			</li>
 			<li>
-				<a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/flickr.png" alt="">
+				<a class="flickr" href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">
 				</a>
 			</li>
 			<?php /*
@@ -32,8 +29,7 @@
 			</li>
 			*/ ?>
 			<li>
-				<a href="<?php echo get_option('sera_feeds_url'); ?>">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/rss.png" alt="">
+				<a class="rss" href="<?php echo get_option('sera_feeds_url'); ?>">
 				</a>
 			</li>
 		</ul>

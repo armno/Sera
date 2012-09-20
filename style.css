@@ -662,6 +662,7 @@ code {
     float: none; }
     .content.page-about h2 {
       font-size: 60px;
+      margin-top: 60px;
       margin-bottom: 60px; }
 
 .related-posts {
@@ -740,6 +741,26 @@ code {
     /*        a {
                 color: #D54E21;
             }*/ }
+  .social-medias a {
+    display: block;
+    width: 32px;
+    height: 32px; }
+    .social-medias a.facebook {
+      background: url("img/facebook.png") center no-repeat; }
+      .social-medias a.facebook:hover {
+        background: url("img/facebook_active.png") center no-repeat; }
+    .social-medias a.twitter {
+      background: url("img/twitter.png") center no-repeat; }
+      .social-medias a.twitter:hover {
+        background: url("img/twitter_active.png") center no-repeat; }
+    .social-medias a.flickr {
+      background: url("img/flickr.png") center no-repeat; }
+      .social-medias a.flickr:hover {
+        background: url("img/flickr_active.png") center no-repeat; }
+    .social-medias a.rss {
+      background: url("img/rss.png") center no-repeat; }
+      .social-medias a.rss:hover {
+        background: url("img/rss_active.png") center no-repeat; }
 
 .widgets {
   margin-top: 32px;
