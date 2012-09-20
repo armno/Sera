@@ -1221,7 +1221,12 @@ pre.prettyprint:after {
         &> header {
             margin-left: 2%;
             margin-right: 2%;
+
         }
+    }
+
+    .header-wrap > header {
+        width: 95%;
     }
 
     img {
