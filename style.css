@@ -472,6 +472,8 @@ html {
   .header-wrap a {
     color: #fff;
     font-weight: bold; }
+    .header-wrap a:hover {
+      color: #FAA488; }
 
 body {
   font-size: 14px;
@@ -610,7 +612,7 @@ code {
                 content: '\0025';
             }*/ }
   .main-navigation a:hover {
-    color: #D54E21; }
+    color: #FAA488; }
 
 .home .post > p {
   margin-bottom: 0; }

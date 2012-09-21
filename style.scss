@@ -557,7 +557,9 @@ html {
     a {
         color: #fff;
         font-weight: bold;
-        
+        &:hover {
+            color: #FAA488;
+        }   
     }
 }
 
@@ -727,7 +729,7 @@ code {
     }
 
     a:hover {
-        color: #D54E21;
+        color: #FAA488;
     }
 }
 
