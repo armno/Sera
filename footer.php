@@ -6,21 +6,50 @@
 			<!-- <p>Made in Chiang Mai.</p> -->
 
 			<section class="commits">
-				<h4>Latest commits</h4>
-				<ul class="commits-list">
-					<li><a href="#">94d4284</a> (HEAD, origin/master, origin/HEAD, master) fixed links:hover color in header</li>
-					<li><a href="#">5df53ad</a> fixed responsive header</li>
-					<li><a href="#">8b11beb</a> close #8. remove some login page styles.</li>
-					<li><a href="#">0b06038</a> fixed viewport</li>
-					<li><a href="#">922309a</a> fixed header width for < 980px window</li>
-					<li><a href="#">5c9e724</a> added editor style fixed #5</li>
-					<li><a href="#">857ed60</a> added states for social icons</li>
-					<li><a href="#">fa2c696</a> removed deprecated functions</li>
-					<li><a href="#">65ad39c</a> change page width and margins.</li>
-					<li><a href="#">a5e4499</a> update readme</li>
+				<h4>Latest commits on <a href="https://github.com/armno/Sera">Github</a></h4>
+				<ul class="commits-list" id="commits-list">
 				</ul>
 			</section>
+			<script>
+				jQuery(function($){
+					$.getJSON('https://api.github.com/repos/armno/Sera/commits',
+						function(commits) {
+							var fragment = document.createDocumentFragment(),
+								i = 0, 
+								l = commits.length,
+								ul = document.getElementById('commits-list'),
+								a,
+								li,
+								sha,
+								msg,
+								href,
+								target;
 
+							for ( ; i < l; i++ ) {
+
+								a = document.createElement('a');
+								href = document.createAttribute('href');
+								href.nodeValue = 'https://github.com/armno/Sera/commit/' + commits[i].sha;
+								target = document.createAttribute('target');
+								target.nodeValue = '_blank';
+								sha = document.createTextNode(commits[i].sha.substring(0,7));
+								a.setAttributeNode(href);
+								a.setAttributeNode(target);
+								a.appendChild(sha);
+
+								msg = document.createTextNode(' ' + commits[i].commit.message);
+								
+								li = document.createElement('li');
+								li.appendChild(a);
+								li.appendChild(msg);
+								fragment.appendChild(li);
+							}
+
+							ul.appendChild(fragment);
+						});
+
+				});
+			</script>
 		</footer>
 		<?php wp_footer(); ?>
 	</body>
