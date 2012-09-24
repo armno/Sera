@@ -590,7 +590,7 @@ body {
         /*border-top: 6px solid #e8e8e8;*/
         color: #969696;
         background: #333;
-        padding-bottom: 200px;
+        padding-bottom: 50px;
 
         p {
             text-align: center;
@@ -1212,6 +1212,20 @@ pre.prettyprint:after {
     font-family: 'Quattrocento', serif;
     font-style: italic;
     color: #999;
+}
+
+/* Latest Sera Commits */
+.commits {
+    width: 640px;
+    margin: auto;
+    text-shadow: 0 1px 0 #141414;
+
+}
+
+.commits-list {
+    font-family: 'Droid Sans Mono'; 
+    font-size: 14px;
+    padding-left: 20px;
 }
 
 /* 1140 px or less*/
