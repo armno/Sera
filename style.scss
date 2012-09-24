@@ -1214,6 +1214,20 @@ pre.prettyprint:after {
     color: #999;
 }
 
+/* Latest Sera Commits */
+.commits {
+    width: 640px;
+    margin: auto;
+    text-shadow: 0 1px 0 #141414;
+
+}
+
+.commits-list {
+    font-family: 'Droid Sans Mono'; 
+    font-size: 14px;
+    padding-left: 20px;
+}
+
 /* 1140 px or less*/
 @media screen and (max-width: 1140px) {
   

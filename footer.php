@@ -7,7 +7,7 @@
 
 			<section class="commits">
 				<h4>Latest commits</h4>
-				<ul style="font-family: 'Droid Sans Mono'; font-size: 14px; text-shadow: 0 1px 0 #141414;">
+				<ul class="commits-list">
 					<li><a href="#">94d4284</a> (HEAD, origin/master, origin/HEAD, master) fixed links:hover color in header</li>
 					<li><a href="#">5df53ad</a> fixed responsive header</li>
 					<li><a href="#">8b11beb</a> close #8. remove some login page styles.</li>
@@ -20,7 +20,7 @@
 					<li><a href="#">a5e4499</a> update readme</li>
 				</ul>
 			</section>
-			
+
 		</footer>
 		<?php wp_footer(); ?>
 	</body>
