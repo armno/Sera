@@ -591,16 +591,17 @@ body {
         color: #969696;
         background: #333;
         padding-bottom: 50px;
+        text-shadow: 0 1px #141414;
 
         p {
             text-align: center;
 
-            &:last-child {
+            /*&:last-child {
                 margin-top: 200px;
                 font: italic 72px/1.5em 'Quattrocento', serif;
                 color: #3a3a3a;
                 text-shadow: 0 1px 0 #2A2A2A;
-            }
+            }*/
         }
     }
 }
@@ -1218,8 +1219,6 @@ pre.prettyprint:after {
 .commits {
     width: 640px;
     margin: auto;
-    text-shadow: 0 1px 0 #141414;
-
 }
 
 .commits-list {
