@@ -32,16 +32,17 @@
 								href.nodeValue = 'https://github.com/armno/Sera/commit/' + commits[i].sha;
 								target = document.createAttribute('target');
 								target.nodeValue = '_blank';
-								sha = document.createTextNode(commits[i].sha.substring(0,7));
+
 								a.setAttributeNode(href);
 								a.setAttributeNode(target);
-								a.appendChild(sha);
+								a.textContent = commits[i].sha.substring(0,7);
 
 								msg = document.createTextNode(' ' + commits[i].commit.message);
 								
 								li = document.createElement('li');
 								li.appendChild(a);
 								li.appendChild(msg);
+
 								fragment.appendChild(li);
 							}
 
