@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html class="no-js" <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
@@ -13,6 +13,7 @@
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php if ( is_singular() && get_option('thread_comments') ) wp_enqueue_script('comment-reply'); ?>
+		<?php wp_enqueue_script('moderinzr', get_template_directory_uri() . '/js/modernizr.js'); ?>
 		<?php wp_enqueue_script('jquery'); ?>
 		<?php wp_head(); ?>
 	</head>
