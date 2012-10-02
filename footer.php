@@ -28,13 +28,8 @@
 							for ( ; i < l; i++ ) {
 
 								a = document.createElement('a');
-								href = document.createAttribute('href');
-								href.nodeValue = 'https://github.com/armno/Sera/commit/' + commits[i].sha;
-								target = document.createAttribute('target');
-								target.nodeValue = '_blank';
-
-								a.setAttributeNode(href);
-								a.setAttributeNode(target);
+								a.setAttribute('href', 'https://github.com/armno/Sera/commit/' + commits[i].sha);
+								a.setAttribute('target', '_blank');
 								a.textContent = commits[i].sha.substring(0,7);
 
 								msg = document.createTextNode(' ' + commits[i].commit.message);
