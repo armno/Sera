@@ -459,10 +459,9 @@ html {
 
 .header-wrap {
   /*background-color: #333;*/
-  /*background: url(img/low_contrast_linen.png) center repeat;*/
+  background: url(img/robots.png) center repeat #333333;
   overflow: hidden;
   padding: 40px 0;
-  background: #333;
   text-shadow: 0 1px 0 #111;
   /*border-bottom: 1px solid #222;*/ }
   .header-wrap > header {
@@ -496,7 +495,8 @@ body {
     padding-top: 40px;
     /*border-top: 6px solid #e8e8e8;*/
     color: #969696;
-    background: #333;
+    /*background: #333;*/
+    background: url(img/robots.png) center repeat #333333;
     padding-bottom: 50px;
     text-shadow: 0 1px #141414; }
     body > footer p {
@@ -748,23 +748,29 @@ code {
   .social-medias a {
     display: block;
     width: 32px;
-    height: 32px; }
+    height: 32px;
+    background: url("img/icons.png") no-repeat;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none; }
     .social-medias a.facebook {
-      background: url("img/facebook.png") center no-repeat; }
+      background-position: -43px -86px; }
       .social-medias a.facebook:hover {
-        background: url("img/facebook_active.png") center no-repeat; }
+        background-position: 0 -86px; }
     .social-medias a.twitter {
-      background: url("img/twitter.png") center no-repeat; }
+      background-position: -43px 0; }
       .social-medias a.twitter:hover {
-        background: url("img/twitter_active.png") center no-repeat; }
+        background-position: 0 0; }
     .social-medias a.flickr {
-      background: url("img/flickr.png") center no-repeat; }
+      background-position: -86px -43px; }
       .social-medias a.flickr:hover {
-        background: url("img/flickr_active.png") center no-repeat; }
+        background-position: -86px 0; }
     .social-medias a.rss {
-      background: url("img/rss.png") center no-repeat; }
+      background-position: -43px -43px; }
       .social-medias a.rss:hover {
-        background: url("img/rss_active.png") center no-repeat; }
+        background-position: 0 -43px; }
 
 .widgets {
   margin-top: 32px;
