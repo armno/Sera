@@ -748,23 +748,29 @@ code {
   .social-medias a {
     display: block;
     width: 32px;
-    height: 32px; }
+    height: 32px;
+    background: url("img/icons.png") no-repeat;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none; }
     .social-medias a.facebook {
-      background: url("img/facebook.png") center no-repeat; }
+      background-position: -43px -86px; }
       .social-medias a.facebook:hover {
-        background: url("img/facebook_active.png") center no-repeat; }
+        background-position: 0 -86px; }
     .social-medias a.twitter {
-      background: url("img/twitter.png") center no-repeat; }
+      background-position: -43px 0; }
       .social-medias a.twitter:hover {
-        background: url("img/twitter_active.png") center no-repeat; }
+        background-position: 0 0; }
     .social-medias a.flickr {
-      background: url("img/flickr.png") center no-repeat; }
+      background-position: -86px -43px; }
       .social-medias a.flickr:hover {
-        background: url("img/flickr_active.png") center no-repeat; }
+        background-position: -86px 0; }
     .social-medias a.rss {
-      background: url("img/rss.png") center no-repeat; }
+      background-position: -43px -43px; }
       .social-medias a.rss:hover {
-        background: url("img/rss_active.png") center no-repeat; }
+        background-position: 0 -43px; }
 
 .widgets {
   margin-top: 32px;

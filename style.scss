@@ -918,32 +918,38 @@ code {
         display: block;
         width: 32px;
         height: 32px;
+        background: url('img/icons.png') no-repeat;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
 
         &.facebook {
-            background: url('img/facebook.png') center no-repeat;
+            background-position: -43px -86px;
             &:hover {
-                background: url('img/facebook_active.png') center no-repeat;
+                background-position: 0 -86px;
             }
         }
 
         &.twitter {
-            background: url('img/twitter.png') center no-repeat;
+            background-position: -43px 0;
             &:hover {
-                background: url('img/twitter_active.png') center no-repeat;
+                background-position: 0 0;
             }
         }
 
         &.flickr {
-            background: url('img/flickr.png') center no-repeat;
+            background-position: -86px -43px;
             &:hover {
-                background: url('img/flickr_active.png') center no-repeat;
+                background-position: -86px 0;
             }
         }
 
         &.rss {
-            background: url('img/rss.png') center no-repeat;
+            background-position: -43px -43px;
             &:hover {
-                background: url('img/rss_active.png') center no-repeat;
+                background-position: 0 -43px;
             }
         }
     }
