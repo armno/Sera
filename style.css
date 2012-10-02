@@ -459,10 +459,9 @@ html {
 
 .header-wrap {
   /*background-color: #333;*/
-  /*background: url(img/low_contrast_linen.png) center repeat;*/
+  background: url(img/robots.png) center repeat #333333;
   overflow: hidden;
   padding: 40px 0;
-  background: #333;
   text-shadow: 0 1px 0 #111;
   /*border-bottom: 1px solid #222;*/ }
   .header-wrap > header {
@@ -496,7 +495,8 @@ body {
     padding-top: 40px;
     /*border-top: 6px solid #e8e8e8;*/
     color: #969696;
-    background: #333;
+    /*background: #333;*/
+    background: url(img/robots.png) center repeat #333333;
     padding-bottom: 50px;
     text-shadow: 0 1px #141414; }
     body > footer p {
