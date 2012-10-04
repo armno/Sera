@@ -670,7 +670,8 @@ code {
       margin-bottom: 60px; }
 
 .related-posts {
-  margin-top: 36px; }
+  margin-top: 36px;
+  overflow: hidden; }
   .related-posts ul {
     list-style: none;
     margin: 0;
@@ -679,6 +680,10 @@ code {
     float: left;
     width: 20%;
     /*margin-right: 24px;*/ }
+
+.like-box {
+  margin-top: 48px;
+  text-align: center; }
 
 .sidebar {
   clear: both;
