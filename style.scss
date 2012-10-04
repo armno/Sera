@@ -811,6 +811,7 @@ code {
 .related-posts {
 
     margin-top: 36px;
+    overflow: hidden;
 
     ul {
         list-style: none;
@@ -823,6 +824,11 @@ code {
         width: 20%;
         /*margin-right: 24px;*/
     }
+}
+
+.like-box {
+    margin-top: 48px;
+    text-align: center;
 }
 
 .sidebar {
