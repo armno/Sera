@@ -23,6 +23,7 @@
 			<header>
 				<h1 id="blog-name">
 					<a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+					&ndash; <span><?php bloginfo('description'); ?></span>
 				</h1>
 
 				<?php wp_nav_menu(array(
