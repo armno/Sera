@@ -669,6 +669,27 @@ code {
       margin-top: 60px;
       margin-bottom: 60px; }
 
+.previous-next-posts {
+  font-size: 20px;
+  margin-top: 40px;
+  overflow: hidden; }
+  .previous-next-posts .left,
+  .previous-next-posts .right {
+    width: 48%; }
+  .previous-next-posts .left {
+    float: left; }
+    .previous-next-posts .left a {
+      border-left: 8px solid #FDAE93; }
+  .previous-next-posts .right {
+    float: right;
+    text-align: right; }
+    .previous-next-posts .right a {
+      border-right: 8px solid #FDAE93; }
+  .previous-next-posts a {
+    display: inline-block;
+    padding: 20px;
+    background: #f2f2f2; }
+
 .related-posts {
   margin-top: 36px;
   overflow: hidden; }

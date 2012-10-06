@@ -35,7 +35,6 @@
 
 					<g:plusone size="medium"></g:plusone>
 
-
 					<div class="fb-like" data-href="<?php echo get_permalink(); ?>" data-layout="button_count" data-send="false" data-width="70" data-show-faces="false"></div>
 
 					<script>
@@ -56,6 +55,15 @@
 
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script"," -wjs");</script>
 				</section>
+
+				<div class="previous-next-posts">
+					<div class="left">
+						<?php previous_post_link('%link'); ?>
+					</div>
+					<div class="right">
+						<?php next_post_link('%link'); ?>
+					</div>
+				</div>
 
 		        <section class="related-posts">
 					<?php
