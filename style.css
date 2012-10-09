@@ -745,14 +745,16 @@ code {
   margin-top: 40px; }
 .single-post .published-date,
 .single-post .category-list,
-.single-post .tag-list a {
+.single-post .tag-list a,
+.single-post .views {
   padding: 3px 5px;
   background-color: #f8f8f8;
   border-left: 4px solid;
   margin-right: 8px; }
   .single-post .published-date:hover,
   .single-post .category-list:hover,
-  .single-post .tag-list a:hover {
+  .single-post .tag-list a:hover,
+  .single-post .views:hover {
     background-color: #ececec; }
 .single-post .published-date {
   border-color: #FDAE93; }
@@ -760,6 +762,8 @@ code {
   border-color: rgba(33, 117, 155, 0.59); }
 .single-post .tag-list a {
   border-color: rgba(118, 172, 118, 0.25); }
+.single-post .views {
+  border-color: #ddd; }
 
 #main {
   clear: both;

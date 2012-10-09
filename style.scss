@@ -920,7 +920,8 @@ code {
 
     .published-date,
     .category-list,
-    .tag-list a {
+    .tag-list a,
+    .views {
         padding: 3px 5px;
         background-color: #f8f8f8;
         border-left: 4px solid;
@@ -941,6 +942,10 @@ code {
 
     .tag-list a {
         border-color: rgba(118, 172, 118, 0.25);
+    }
+
+    .views {
+        border-color: #ddd;
     }
 }
 
