@@ -23,8 +23,7 @@
 				<small class="meta">
 					<span class="published-date"><?php the_date('F d, Y'); ?></span>
 					<span class="category-list"><?php the_category(); ?></span>
-					<span class="tag-list"><?php the_tags('', ' '); ?></span>
-					<?php if(function_exists('the_views')) : ?>
+					<?php if ( function_exists('the_views') ) : ?>
 					<span class="views"><?php the_views();  ?></span>
 					<?php endif; ?>
 				</small>
