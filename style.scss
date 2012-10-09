@@ -912,6 +912,17 @@ code {
         font-size: 13px;
         /*font-style: italic;*/
         color: #666;
+        opacity: 0.3;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+        &:hover {
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            opacity: 1.0;
+        }
     }
 
     .sharing {
