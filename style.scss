@@ -909,13 +909,38 @@ code {
     .meta {
         margin-bottom: 24px;
         display: block;
-        font-size: 14px;
-        font-style: italic;
-        color: #ccc;
+        font-size: 13px;
+        /*font-style: italic;*/
+        color: #666;
     }
 
     .sharing {
         margin-top: 40px;
+    }
+
+    .published-date,
+    .category-list,
+    .tag-list a {
+        padding: 3px 5px;
+        background-color: #f8f8f8;
+        border-left: 4px solid;
+        margin-right: 8px;
+
+        &:hover {
+            background-color: #ececec;
+        }
+    }
+
+    .published-date {
+        border-color: #FDAE93;
+    }
+
+    .category-list {
+        border-color: rgba(33, 117, 155, 0.59);
+    }
+
+    .tag-list a {
+        border-color: rgba(118, 172, 118, 0.25);
     }
 }
 
