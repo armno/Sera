@@ -1,23 +1,10 @@
-/*   
-Theme Name: Sera
-Theme URI: http://armno.in.th
-Description: Super lightweight WordPress theme specifically made for armno.in.th
-Author: ArmNo
-Author URI: http://armno.in.th
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: dark, light, white, black, gray
-Text Domain: sera
-Version: 0.1
-*/
-
 @font-face {
     font-family: 'EntypoRegular';
-    src: url('font/entypo-webfont.eot');
-    src: url('font/entypo-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/entypo-webfont.woff') format('woff'),
-         url('font/entypo-webfont.ttf') format('truetype'),
-         url('font/entypo-webfont.svg#EntypoRegular') format('svg');
+    src: url('../font/entypo-webfont.eot');
+    src: url('../font/entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/entypo-webfont.woff') format('woff'),
+         url('../font/entypo-webfont.ttf') format('truetype'),
+         url('../font/entypo-webfont.svg#EntypoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -25,7 +12,7 @@ Version: 0.1
 
 @font-face {
     font-family: 'Socialico';
-    src: url('font/Socialico.otf') format('opentype');
+    src: url('../font/Socialico.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 
@@ -540,7 +527,7 @@ html {
 
 .header-wrap {
     /*background-color: #333;*/
-    background: url(img/robots.png) center repeat #333;
+    background: url(../img/robots.png) center repeat #333;
     overflow: hidden;
     padding: 40px 0;
     text-shadow: 0 1px 0 #111;
@@ -589,7 +576,7 @@ body {
         /*border-top: 6px solid #e8e8e8;*/
         color: #969696;
         /*background: #333;*/
-        background: url(img/robots.png) center repeat #333;
+        background: url(../img/robots.png) center repeat #333;
         padding-bottom: 50px;
         text-shadow: 0 1px #141414;
 
@@ -997,7 +984,7 @@ code {
         display: block;
         width: 32px;
         height: 32px;
-        background: url('img/icons.png') no-repeat;
+        background: url('../img/icons.png') no-repeat;
         -webkit-transition: none;
         -moz-transition: none;
         -ms-transition: none;

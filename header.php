@@ -9,6 +9,7 @@
 		
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans|Quattrocento' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/main.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
