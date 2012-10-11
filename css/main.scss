@@ -1034,13 +1034,14 @@ code {
 .blogroll {
     line-height: 32px;
 
-    li {
-        display: inline;
+    a {
+        // display: inline;
         margin: 0 3px;
         font-size: 14px;
         padding: 3px 5px;
-        border-radius: 5px;
-        background-color: #efefef;
+        // border-radius: 5px;
+        background-color: #f8f8f8;
+        border-left: 4px solid rgba(33, 117, 155, 0.59);
     } 
 }
 
