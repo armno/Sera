@@ -1,7 +1,7 @@
 		</div><!-- #main -->
 		<footer>
 			<p>
-				<strong><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></strong> is powered by <a href="http://wordpress.org">WordPress</a> and <a href="https://github.com/armno/sera">Sera Theme</a>.
+				<strong><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?> &ndash; <?php bloginfo('description'); ?></a></strong> is running on <a href="http://wordpress.org">WordPress</a> and <a href="https://github.com/armno/sera">Sera Theme</a>.
 			</p>
 			<!-- <p>Made in Chiang Mai.</p> -->
 
