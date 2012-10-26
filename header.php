@@ -20,11 +20,11 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+		<?php /*
 		<div class="header-wrap">
 			<header>
 				<h1 id="blog-name">
-					<a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-					&ndash; <span><?php bloginfo('description'); ?></span>
+					<a href="<?php echo home_url(); ?>">A</a>
 				</h1>
 
 				<?php wp_nav_menu(array(
@@ -34,5 +34,6 @@
 				)); ?>
 			</header>
 		</div>
+		 */ ?>
 
 		<div id="main">
