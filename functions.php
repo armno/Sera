@@ -3,11 +3,6 @@
 add_theme_support( 'automatic-feed-links' );
 add_editor_style();
 
-function custom_login() { 
-	echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/css/login.css" />'; 
-}
-add_action('login_head', 'custom_login');
-
 register_nav_menu( 'top', 'Top Menu' );
 
 if ( function_exists('register_sidebar') ) {
