@@ -971,6 +971,10 @@ code {
 
 .logo {
     margin-bottom: 40px;
+
+    &.logo-post {
+        margin-top: 40px;
+    }
 }
 
 .logo a {
@@ -986,6 +990,11 @@ code {
         background: #4CA6CF;
         border-radius: 0.5em;
     }
+}
+
+.logo-post a {
+    font-size: 30px;
+    padding: 0.8em;
 }
 
 #subscribe {
