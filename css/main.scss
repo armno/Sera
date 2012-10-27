@@ -213,8 +213,8 @@ pre,
 code,
 kbd,
 samp {
-    font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
+    font-family: "Droid Sans Mono", monospace, serif;
+    _font-family: "Droid Sans Mono", 'courier new', monospace;
     font-size: 1em;
 }
 
@@ -576,9 +576,9 @@ body {
         /*border-top: 6px solid #e8e8e8;*/
         color: #969696;
         /*background: #333;*/
-        background: url(../img/robots.png) center repeat #333;
+        // background: url(../img/robots.png) center repeat #333;
         padding-bottom: 50px;
-        text-shadow: 0 1px #141414;
+        // text-shadow: 0 1px #141414;
 
         p {
             text-align: center;
@@ -971,6 +971,10 @@ code {
 
 .logo {
     margin-bottom: 40px;
+
+    &.logo-post {
+        margin-top: 40px;
+    }
 }
 
 .logo a {
@@ -983,8 +987,14 @@ code {
     line-height: 1em;
 
     &:hover {
-        background: #D54E21;
+        background: #4CA6CF;
+        border-radius: 0.5em;
     }
+}
+
+.logo-post a {
+    font-size: 30px;
+    padding: 0.8em;
 }
 
 #subscribe {
@@ -1234,6 +1244,11 @@ code {
         width: 0;
         clear: both;
     }
+}
+
+/* Pagination without wp-pagenavi */
+.home-paging {
+    margin-top: 70px;
 }
 
 aside.sidebar {

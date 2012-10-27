@@ -25,11 +25,11 @@
 						<?php wp_pagenavi(); ?>
 					<?php else :
 						if ( $wp_query->max_num_pages > 1 ) : ?>
-							<nav class="pagination">
-								<div class="previous">
+							<nav class="previous-next-posts home-paging">
+								<div class="left">
 									<?php next_posts_link('&larr; Older Posts'); ?>
 								</div>
-								<div class="next">
+								<div class="right">
 									<?php previous_posts_link('Newer Posts &rarr;'); ?>
 								</div>
 							</nav>

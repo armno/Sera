@@ -28,19 +28,17 @@
 				<a class="flickr" href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">
 				</a>
 			</li>
-			<?php /*
-			<li>
+			<!-- <li>
 				<a href="https://github.com/armno">
 					<img src="<?php bloginfo('template_url'); ?>/img/github.png" alt="">
 				</a>
-			</li>
-			*/ ?>
+			</li> -->
 			<li>
 				<a class="rss" href="<?php echo get_option('sera_feeds_url'); ?>">
 				</a>
 			</li>
 		</ul>
-	</section>
+	</section><!-- .about -->
 <!-- 
 	<section class="search">
 		<h3>search</h3>
