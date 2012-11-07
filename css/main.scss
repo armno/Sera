@@ -957,6 +957,15 @@ code {
     }
 }
 
+.post-edit-link {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 90px;
+    opacity: 0.2;
+    color: #ddd;
+}
+
 #main {
     clear: both;
     overflow: hidden;
