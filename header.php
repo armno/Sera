@@ -8,9 +8,9 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/main.css" media="screen">
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
+		<link href="http://fonts.googleapis.com/css?family=Lato|Droid+Sans+Mono" rel="stylesheet">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css" media="screen">
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php if ( is_singular() && get_option('thread_comments') ) wp_enqueue_script('comment-reply'); ?>
