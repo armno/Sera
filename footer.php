@@ -1,5 +1,5 @@
 		</div><!-- #main -->
-		<footer>
+		<footer class="grid grid-pad">
 			<p>
 				<strong><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?> &ndash; <?php bloginfo('description'); ?></a></strong> is running on <a href="http://wordpress.org">WordPress</a> and <a href="https://github.com/armno/sera">Sera Theme</a>.
 			</p>

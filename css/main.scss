@@ -726,11 +726,11 @@ code {
 }
 
 .content {
-    float: left;
-    width: 760px;
-    margin-left: 36px;
-    // margin-right: 36px;
-    margin-top: 30px;
+    // float: left;
+    // width: 760px;
+    // margin-left: 36px;
+    // // margin-right: 36px;
+    // margin-top: 30px;
 
     .post {
         margin-bottom: 24px;
@@ -851,13 +851,13 @@ code {
 }
 
 .sidebar {
-    clear: both;
-    float: left;
-    width: 308px;
-    margin-right: 36px;
-    // margin-left: 36px;
-    margin-top: 24px;
-    padding-top: 30px;
+    // clear: both;
+    // float: left;
+    // width: 308px;
+    // margin-right: 36px;
+    // // margin-left: 36px;
+    // margin-top: 24px;
+    // padding-top: 30px;
 
     &> ul {
         list-style: none;
@@ -966,16 +966,21 @@ code {
     color: #ddd;
 }
 
-#main {
-    clear: both;
-    overflow: hidden;
-    width: 1140px;
-    margin: auto;
-    margin-bottom: 6px;
-    padding-bottom: 64px;
-    /*box-shadow: 0 0 3px rgba(0, 0, 0, .25);*/
-    background-color: #fff;
-    border-radius: 2px;
+// #main {
+//     clear: both;
+//     overflow: hidden;
+//     width: 1140px;
+//     margin: auto;
+//     margin-bottom: 6px;
+//     padding-bottom: 64px;
+//     /*box-shadow: 0 0 3px rgba(0, 0, 0, .25);*/
+//     background-color: #fff;
+//     border-radius: 2px;
+// }
+
+.main {
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .logo {

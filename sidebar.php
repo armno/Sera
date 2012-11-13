@@ -1,18 +1,22 @@
-<div class="sidebar">
+<div class="sidebar col-1-3">
 
 	<section class="about">
 		<div class="logo">
 			<a href="<?php bloginfo('url'); ?>">AN</a>
 		</div>
 		<p>
-			I'm <em>ArmNo</em>, a web developer, Chiang Mai, Thailand. I interested in front-end development and web design.
+			I'm <em>ArmNo</em>, a web developer, Chiang Mai, Thailand. I am into front-end development and web design.
 			<?php 
 				#$admin = get_user_by('login', 'ArmNo'); /* temporarily use the log in name : should be value from theme options */ 
 				#the_author_meta( 'user_description', $admin->ID);
 			?> 
 		</p>
 		<p>
-			I spend my free time messing <a href="https://github.com/armno">my projects</a> on Github. Sometimes reading books. I also love taking <a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">photos</a>.
+			I spend (some of) my free time working on <a href="https://github.com/armno">my projects</a> on Github, reading books. I also love taking <a href="http://www.flickr.com/photos/<?php echo get_option('sera_flickr_username'); ?>">photos</a>.
+		</p>
+			
+		<p>
+			There is an <a href="<?php bloginfo('url'); ?>/about-me">about me</a> page in case you want to know more. Take your time.
 		</p>
 
 		<ul class="social-medias">
