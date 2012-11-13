@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div class="sidebar col-1-3">
 
 	<section class="about">
 		<div class="logo">
