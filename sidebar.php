@@ -16,7 +16,7 @@
 		</p>
 			
 		<p>
-			There is an <a href="<?php bloginfo('url'); ?>/about-me">about me</a> page in case you want to know more. Take your time.
+			There is an <a href="<?php echo home_url(); ?>/about-me">about me</a> page in case you want to know more. Take your time.
 		</p>
 
 		<ul class="social-medias">
