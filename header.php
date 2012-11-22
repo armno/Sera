@@ -9,8 +9,8 @@
 		
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link href="http://fonts.googleapis.com/css?family=Lato|Droid+Sans+Mono" rel="stylesheet">
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/simplegrid.css" media="screen">
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css" media="screen">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/simplegrid.css" media="screen">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css" media="screen">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
