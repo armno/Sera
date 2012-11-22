@@ -2,7 +2,7 @@
 
 	<section class="about">
 		<div class="logo">
-			<a href="<?php bloginfo('url'); ?>">AN</a>
+			<a href="<?php echo home_url(); ?>">AN</a>
 		</div>
 		<p>
 			I'm <em>ArmNo</em>, a web developer, Chiang Mai, Thailand. I am into front-end development and web design.
@@ -34,7 +34,7 @@
 			</li>
 			<!-- <li>
 				<a href="https://github.com/armno">
-					<img src="<?php bloginfo('template_url'); ?>/img/github.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/github.png" alt="">
 				</a>
 			</li> -->
 			<li>
