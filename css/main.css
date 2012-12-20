@@ -461,8 +461,8 @@ html {
     color: #FAA488; }
 
 body {
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 1.5;
   font-family: 'Lato', sans-serif;
   /*width: 970px;*/
   margin: auto;
@@ -710,7 +710,7 @@ code {
 .single-post .sidebar {
   width: 200px; }
 .single-post .content {
-  width: 874px;
+  width: 640px;
   margin: auto;
   float: none; }
 .single-post .meta {
@@ -768,7 +768,8 @@ code {
 .logo {
   margin-bottom: 40px; }
   .logo.logo-post {
-    margin-top: 40px; }
+    margin-top: 40px;
+    position: fixed; }
 
 .logo a {
   font-size: 60px;

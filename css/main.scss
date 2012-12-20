@@ -553,8 +553,8 @@ html {
 }
 
 body {
-    font-size: 14px;
-    line-height: 21px;    
+    font-size: 16px;
+    line-height: 1.5;    
     font-family: 'Lato', sans-serif;
     /*width: 970px;*/
     margin: auto;
@@ -901,7 +901,7 @@ code {
         width: 200px;
     }
     .content {
-        width: 874px;
+        width: 640px;
         margin: auto;
         float: none;
     }
@@ -991,6 +991,7 @@ code {
 
     &.logo-post {
         margin-top: 40px;
+        position: fixed;
     }
 }
 
