@@ -1510,6 +1510,9 @@ pre.prettyprint:after {
 }
 
 @media screen and (max-width: 320px) {
+    .logo.logo-post {
+        position: static;
+    }
 	.main-navigation ul {
 		margin: 0;
 		padding: 0;
