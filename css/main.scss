@@ -520,6 +520,9 @@ th {
     border-bottom: 2px solid #ddd;
 }
 /*=== custom style ==*/
+.center {
+    text-align: center;
+}
 html {
     /*background-color: #eee;*/
     /*background: #eee url(img/furley_bg.png) center repeat;*/
@@ -550,8 +553,8 @@ html {
 }
 
 body {
-    font-size: 14px;
-    line-height: 21px;    
+    font-size: 16px;
+    line-height: 1.5;    
     font-family: 'Lato', sans-serif;
     /*width: 970px;*/
     margin: auto;
@@ -898,7 +901,7 @@ code {
         width: 200px;
     }
     .content {
-        width: 874px;
+        width: 640px;
         margin: auto;
         float: none;
     }
@@ -988,6 +991,7 @@ code {
 
     &.logo-post {
         margin-top: 40px;
+        position: fixed;
     }
 }
 
@@ -1355,6 +1359,23 @@ pre.prettyprint:after {
     font-family: 'Droid Sans Mono'; 
     font-size: 14px;
     padding-left: 20px;
+}
+
+// 404 page
+.curious-man {
+    text-align: center; 
+    font-size: 14em; 
+    line-height: 1;
+}
+
+.curious-man-speech {
+    text-align: center; margin: 120px 0 80px; font-size: 2em;
+}
+
+.logo-404 {
+    font-size: 1em; 
+    text-align: center; 
+    margin-top: 0;
 }
 
 /* 1140 px or less*/
