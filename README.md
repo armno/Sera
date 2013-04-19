@@ -2,4 +2,4 @@
 
 A super lightweight theme specificly made for my blog.
 
-Demo and also production is at http://armno.in.th
+**This theme is no longer in development since I have stopped using WordPress for my blog.** - ArmNo, April 2013
